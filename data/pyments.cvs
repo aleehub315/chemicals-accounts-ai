@@ -1,0 +1,2 @@
+Payment_ID,Date,Type,Party_ID,Reference_ID,Amount,Payment_Method,Description
+PAY-001,2026-09-19,Customer,CUST-001,SALE-001,0,Cash,Customer payment
