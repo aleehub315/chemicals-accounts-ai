@@ -1,0 +1,2 @@
+Product_ID,Product_Name,Opening_Stock,Purchased_Qty,Sold_Qty,Current_Stock,Minimum_Stock,Stock_Status
+CHEM-001,PVA,0,0,0,0,100,Low
