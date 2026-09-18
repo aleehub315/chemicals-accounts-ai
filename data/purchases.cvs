@@ -1,0 +1,2 @@
+Purchase_ID,Date,Supplier_ID,Product_ID,Quantity,Rate,Total_Amount,Paid_Amount,Remaining_Balance
+PUR-001,2026-09-19,SUP-001,CHEM-001,100,700,70000,0,70000
