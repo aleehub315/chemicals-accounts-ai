@@ -1,0 +1,2 @@
+Commission_ID,Date,Sale_ID,Salesperson,Product_ID,Sale_Amount,Commission_Rate,Commission_Amount,Status
+COM-001,2026-09-19,SALE-001,Ali,CHEM-001,78000,15,11700,Pending
