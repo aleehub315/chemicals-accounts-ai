@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chemical Accounts AI</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+    }
+
+    header {
+      background: #17202a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .value {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .ai-box {
+      margin-top: 25px;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    input {
+      width: 70%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      padding: 12px 18px;
+      border: none;
+      border-radius: 8px;
+      background: #17202a;
+      color: white;
+      cursor: pointer;
+    }
+
+    #response {
+      margin-top: 15px;
+      padding: 15px;
+      background: #f4f6f8;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Chemical Accounts AI</h1>
+  <p>Sales • Purchases • Stock • Accounts • Commission</p>
+</header>
+
+<div class="container">
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Today's Sales</h3>
+      <div class="value">PKR 0</div>
+    </div>
+
+    <div class="card">
+      <h3>Purchases</h3>
+      <div class="value">PKR 0</div>
+    </div>
+
+    <div class="card">
+      <h3>Receivables</h3>
+      <div class="value">PKR 0</div>
+    </div>
+
+    <div class="card">
+      <h3>Expenses</h3>
+      <div class="value">PKR 0</div>
+    </div>
+
+  </div>
+
+  <div class="ai-box">
+
+    <h2>🤖 AI Assistant</h2>
+
+    <input
+      type="text"
+      id="command"
+      placeholder="Example: CUST-001 ka balance batao"
+    >
+
+    <button onclick="processCommand()">Run</button>
+
+    <div id="response">
+      AI response yahan show hoga.
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+
+function processCommand() {
+
+  const command =
+    document.getElementById("command").value.toLowerCase();
+
+  const response =
+    document.getElementById("response");
+
+  if (command.includes("balance")) {
+
+    response.innerHTML =
+      "Customer balance system se calculate hoga.";
+
+  } else if (command.includes("stock")) {
+
+    response.innerHTML =
+      "Current stock system se calculate hoga.";
+
+  } else if (command.includes("sale")) {
+
+    response.innerHTML =
+      "Sales entry system mein record hogi.";
+
+  } else if (command.includes("payment")) {
+
+    response.innerHTML =
+      "Payment entry accounts mein record hogi.";
+
+  } else {
+
+    response.innerHTML =
+      "Command samajh nahi aayi. Example: Customer balance batao.";
+
+  }
+
+}
+
+</script>
+
+</body>
+</html>
