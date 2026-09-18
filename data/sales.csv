@@ -1,0 +1,2 @@
+Sale_ID,Date,Customer_ID,Product_ID,Quantity,Rate,Total_Amount,Received_Amount,Remaining_Balance,Salesperson
+SALE-001,2026-09-19,CUST-001,CHEM-001,100,780,78000,0,78000,Ali
