@@ -1,0 +1,2 @@
+Expense_ID,Date,Category,Description,Amount,Payment_Method
+EXP-001,2026-09-19,Transport,Sample expense,0,Cash
