@@ -1,0 +1,2 @@
+Product_ID,Product_Name,Category,Unit,Purchase_Rate,Sale_Rate,Commission_Rate,Current_Stock,Minimum_Stock,Status
+CHEM-001,PVA,Textile Chemical,KG,0,780,15,0,100,Active
